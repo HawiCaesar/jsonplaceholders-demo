@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Accessories"
+    },
+    {
+      "id": 2,
+      "name": "Electronics"
+    },
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Computer Accessories"
+    }
+    {
+      "id": 2,
+      "name": "Electrical Accessories"
+    }
+  ]
