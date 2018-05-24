@@ -21,7 +21,12 @@
     },
     {
       "id": 2,
-      "name": "Electrical Accessories",
+      "name": "Electrical Appliances",
+      "asset_category": 1
+    },
+    {
+      "id": 3,
+      "name": "Office Furniture",
       "asset_category": 1
     }
   ],
