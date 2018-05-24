@@ -7,6 +7,10 @@
     {
       "id": 2,
       "category_name": "Electronics"
+    },
+    {
+      "id": 3,
+      "category_name": "Furniture"
     }
   ],
   "subcategories": [
