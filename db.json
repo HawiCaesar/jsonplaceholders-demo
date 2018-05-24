@@ -2,21 +2,35 @@
   "categories": [
     {
       "id": 1,
-      "name": "Accessories"
+      "category_name": "Accessories"
     },
     {
       "id": 2,
-      "name": "Electronics"
+      "category_name": "Electronics"
     }
   ],
   "subcategories": [
     {
       "id": 1,
-      "name": "Computer Accessories"
+      "name": "Computer Accessories",
+      "asset_category": 1
     },
     {
       "id": 2,
-      "name": "Electrical Accessories"
+      "name": "Electrical Accessories",
+      "asset_category": 1
+    }
+  ],
+  "types": [
+    {
+      "id":1,
+      "asset_type": "Headsets",
+      "asset_sub_category": 1
+    },
+    {
+      "id":1,
+      "asset_type": "Extension cords",
+      "asset_sub_category": 2
     }
   ]
 }
