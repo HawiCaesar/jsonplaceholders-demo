@@ -41,5 +41,33 @@
       "asset_type": "Extension cords",
       "asset_sub_category": 2
     }
+  ],
+  "makes": [
+    {
+      "make_label": "Mircosoft",
+      "asset_type": 1
+    },
+    {
+      "make_label": "Sollatex",
+      "asset_type": 2
+    }
+  ],
+  "model_numbers": [
+    {
+      "model_number": "Mircosoft LX-Lifechat-6000",
+      "make_label": 1
+    },
+    {
+      "model_number": "Sades SA-708GT",
+      "make_label": 1
+    },
+    {
+      "model_number": "Sollatex AVS13",
+      "make_label": 2
+    },
+    {
+      "model_number": "Sollatex AVS15-Long",
+      "make_label": 2
+    }
   ]
 }
