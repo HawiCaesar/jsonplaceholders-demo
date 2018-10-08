@@ -13,7 +13,8 @@
         "commenter": {
           "id": 2,
           "name": "Nicole"
-        }
+        },
+        "message": "Some commenting here"
       }
     ]
   },
@@ -30,28 +31,32 @@
         "commenter": {
           "id": 2,
           "name": "Nicole"
-        }
+        },
+        "message": "This is a good post"
       },
       {
         "id": 325,
         "commenter": {
           "id": 5,
           "name": "James"
-        }
+        },
+        "message": "This is another good post"
       },
       {
         "id": 326,
         "commenter": {
           "id": 8,
           "name": "Kirk"
-        }
+        },
+        "message": "Wow, Love it"
       },
       {
         "id": 327,
         "commenter": {
           "id": 9,
           "name": "Rey"
-        }
+        },
+        "message": "For the win"
       }
     ]
   },
@@ -68,7 +73,8 @@
         "commenter": {
           "id": 2,
           "name": "Nicole"
-        }
+        },
+        "message": "Wubba lubba dub dub"
       }
     ]
   }
