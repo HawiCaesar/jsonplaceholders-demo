@@ -1,84 +1,74 @@
-{
-  "categories": [
-    {
-      "id": 1,
-      "category_name": "Accessories"
+[
+  {
+    "id": 123,
+    "author": {
+      "id": "1",
+      "name": "Paul"
     },
-    {
-      "id": 2,
-      "category_name": "Electronics"
+    "title": "My awesome blog post",
+    "comments": [
+      {
+        "id": "324",
+        "commenter": {
+          "id": "2",
+          "name": "Nicole"
+        }
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "author": {
+      "id": "1",
+      "name": "Paul"
     },
-    {
-      "id": 3,
-      "category_name": "Furniture"
-    }
-  ],
-  "subcategories": [
-    {
-      "id": 1,
-      "name": "Computer Accessories",
-      "asset_category": 1
+    "title": "Another awesome blog post",
+    "comments": [
+      {
+        "id": "324",
+        "commenter": {
+          "id": "2",
+          "name": "Nicole"
+        }
+      },
+      {
+        "id": "325",
+        "commenter": {
+          "id": "5",
+          "name": "James"
+        }
+      },
+      {
+        "id": "326",
+        "commenter": {
+          "id": "8",
+          "name": "Kirk"
+        }
+      },
+      {
+        "id": "327",
+        "commenter": {
+          "id": "9",
+          "name": "Rey"
+        }
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "author": {
+      "id": "3",
+      "name": "Robert"
     },
-    {
-      "id": 2,
-      "name": "Electrical Appliances",
-      "asset_category": 2
-    },
-    {
-      "id": 3,
-      "name": "Office Furniture",
-      "asset_category": 3
-    }
-  ],
-  "types": [
-    {
-      "id": 1,
-      "asset_type": "Headsets",
-      "asset_sub_category": 1
-    },
-    {
-      "id": 2,
-      "asset_type": "Extension cords",
-      "asset_sub_category": 2
-    }
-  ],
-  "makes": [
-    {
-      "id": 1,
-      "make_label": "Mircosoft",
-      "asset_type": "Headsets"
-    },
-    {
-      "id": 2,
-      "make_label": "Sollatex",
-      "asset_type": "Extension cords"
-    }
-  ],
-  "model_numbers": [
-    {
-      "id": 1,
-      "model_number": "Mircosoft LX-Lifechat-6000",
-      "make_label": "Mircosoft"
-    },
-    {
-      "id": 2,
-      "model_number": "Sades SA-708GT",
-      "make_label": "Mircosoft"
-    },
-    {
-      "id": 3,
-      "model_number": "Sollatex AVS13",
-      "make_label": "Sollatex"
-    },
-    {
-      "id": 5,
-      "model_number": "Sollatex AVS15-Long",
-      "make_label": "Sollatex"
-    },
-    {
-      "id": 6,
-      "model_number": "Mircosoft LX-Lifechat-7000",
-      "make_label": "Mircosoft"
-    }
-  ]
-}
+    "title": "This normalized",
+    "comments": [
+      {
+        "id": "324",
+        "commenter": {
+          "id": "2",
+          "name": "Nicole"
+        }
+      }
+    ]
+  }
+]
