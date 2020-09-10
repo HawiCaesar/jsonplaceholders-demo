@@ -1,116 +1,33 @@
 {
-  "articles": [
-  {
-    "id": 123,
-    "author": {
+  "books": [
+    {
       "id": 1,
-      "name": "Paul"
+      "title": "Pipers at the gates dawn",
+      "chargePerDay": 1
     },
-    "title": "My awesome blog post",
-    "comments": [
-      {
-        "id": 321,
-        "commenter": {
-          "id": 2,
-          "name": "Nicole"
-        },
-        "message": "Some commenting here"
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "author": {
-      "id": 1,
-      "name": "Paul"
+    {
+      "id": 2,
+      "title": "Figuring",
+      "chargePerDay": 1
     },
-    "title": "Another awesome blog post",
-    "comments": [
-      {
-        "id": 324,
-        "commenter": {
-          "id": 2,
-          "name": "Nicole"
-        },
-        "message": "This is a good post"
-      },
-      {
-        "id": 325,
-        "commenter": {
-          "id": 5,
-          "name": "James"
-        },
-        "message": "This is another good post"
-      },
-      {
-        "id": 326,
-        "commenter": {
-          "id": 8,
-          "name": "Kirk"
-        },
-        "message": "Wow, Love it"
-      },
-      {
-        "id": 327,
-        "commenter": {
-          "id": 9,
-          "name": "Rey"
-        },
-        "message": "For the win"
-      }
-    ]
-  },
-  {
-    "id": 125,
-    "author": {
+    {
       "id": 3,
-      "name": "Robert"
+      "title": "Animal Farm",
+      "chargePerDay": 1
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Jane Kamau",
+      "booksRented": [1, 3],
+      "noOfDaysToRent": 5
     },
-    "title": "This normalized",
-    "comments": [
-      {
-        "id": 350,
-        "commenter": {
-          "id": 2,
-          "name": "Nicole"
-        },
-        "message": "Wubba lubba dub dub"
-      }
-    ]
-  }
-],
-"comments": [
-  {
-    "id": 321,
-    "message": "Some commenting here"
-  },
-  {
-    "id": 324,
-    "message": "This is a good post"
-  },
-  {
-    "id": 325,
-    "message": "This is another good post"
-  },
-  {
-    "id": 326,
-    "message": "Wow, Love it"
-  },
-  {
-    "id": 327,
-    "message": "For the win"
-  },
-  {
-    "id": 350,
-    "message": "Wubba lubba dub dub"
-  }
-],
-  "users": [
-    { "id": 1, "name": "Paul" },
-    { "id": 2, "name": "Nicole" },
-    { "id": 3, "name": "Robert" },
-    { "id": 5, "name": "James" },
-    { "id": 8, "name": "Kirk" },
-    { "id": 9, "name": "Rey" }
-]
+    {
+      "id": 2,
+      "name": "Evans Mawazo",
+      "booksRented": [2, 3],
+      "noOfDaysToRent": 2
+    }
+  ]
 }
