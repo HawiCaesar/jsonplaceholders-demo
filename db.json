@@ -5,14 +5,18 @@
       "title": "Pipers at the gates dawn",
       "author": "Johnathan Cott",
       "category": "Novel",
-      "chargePerDay": 1.5
+      "chargePerDay": 1.5,
+      "day1Charge": 4.5,
+      "day2Charge": 4.5
     },
     {
       "id": 2,
       "title": "Figuring",
       "author": "Maria Popova",
       "category": "Regular",
-      "chargePerDay": 1
+      "chargePerDay": 1.5,
+      "day1Charge": 2,
+      "day2Charge": 1
     },
     {
       "id": 3,
