@@ -40,23 +40,43 @@
     {
       "id": 1,
       "name": "Jane Kamau",
-      "booksRented": [1, 3],
+      "booksRented": [
+        {
+          "id": 1,
+          "title": "Animal Farm",
+          "chargePerDay": 1.5
+        },
+        {
+          "id": 3,
+          "title": "Pipers at the gates dawn",
+          "chargePerDay": 3
+        }
+      ],
       "noOfDaysToRent": 5,
-      "rentCharged": 10
+      "rentCharged": 22.5
     },
     {
       "id": 2,
       "name": "Evans Mawazo",
-      "booksRented": [2, 3],
+      "booksRented": [
+        { "id": 2, "title": "Figuring", "chargePerDay": 1 },
+        { "id": 5, "title": "Aminata", "chargePerDay": 3 }
+      ],
       "noOfDaysToRent": 2,
-      "rentCharged": 4
+      "rentCharged": 6
     },
     {
       "id": 3,
       "name": "Rachael Atula",
-      "booksRented": [4],
+      "booksRented": [
+        {
+          "id": 4,
+          "title": "City Murders",
+          "chargePerDay": 3
+        }
+      ],
       "noOfDaysToRent": 3,
-      "rentCharged": 3
+      "rentCharged": 9
     }
   ]
 }
