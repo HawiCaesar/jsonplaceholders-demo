@@ -4,31 +4,36 @@
       "id": 1,
       "title": "Pipers at the gates dawn",
       "author": "Johnathan Cott",
-      "chargePerDay": 1
+      "category": "Novel",
+      "chargePerDay": 1.5
     },
     {
       "id": 2,
       "title": "Figuring",
       "author": "Maria Popova",
+      "category": "Regular",
       "chargePerDay": 1
     },
     {
       "id": 3,
       "title": "Animal Farm",
       "author": "Malcom Gladwell",
-      "chargePerDay": 1
+      "category": "Fiction",
+      "chargePerDay": 3
     },
     {
       "id": 4,
       "title": "City Murders",
+      "category": "Fiction",
       "author": "Nducu wa Ngugi",
-      "chargePerDay": 1
+      "chargePerDay": 3
     },
     {
       "id": 5,
       "title": "Aminata",
       "author": "Francis D Imbuga",
-      "chargePerDay": 1
+      "regular": "Fiction",
+      "chargePerDay": 3
     }
   ],
   "customers": [
