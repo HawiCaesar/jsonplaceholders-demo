@@ -53,7 +53,9 @@
         {
           "id": 3,
           "title": "Pipers at the gates dawn",
-          "chargePerDay": 3
+          "chargePerDay": 3,
+          "day1Charge": 4.5,
+          "day2Charge": 4.5
         }
       ],
       "noOfDaysToRent": 5,
@@ -63,7 +65,13 @@
       "id": 2,
       "name": "Evans Mawazo",
       "booksRented": [
-        { "id": 2, "title": "Figuring", "chargePerDay": 1 },
+        {
+          "id": 2,
+          "title": "Figuring",
+          "chargePerDay": 1,
+          "day1Charge": 2,
+          "day2Charge": 1
+        },
         { "id": 5, "title": "Aminata", "chargePerDay": 3 }
       ],
       "noOfDaysToRent": 2,
