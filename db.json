@@ -54,13 +54,13 @@
           "id": 3,
           "title": "Pipers at the gates dawn",
           "category": "Novel",
-          "chargePerDay": 3,
+          "chargePerDay": 1.5,
           "day1Charge": 4.5,
           "day2Charge": 4.5
         }
       ],
       "noOfDaysToRent": 5,
-      "rentCharged": 31.0
+      "rentCharged": 21.0
     },
     {
       "id": 2,
